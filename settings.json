@@ -27,12 +27,12 @@
   "editor.suggest.localityBonus": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.formatOnPaste": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.smoothScrolling": true,
   "editor.mouseWheelZoom": true,
   "editor.linkedEditing": true,
-  "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "editor.fontFamily": " 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "editor.glyphMargin": false,
   "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -68,14 +68,14 @@
   // Javascript & TypeScript
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
-  "javascript.validate.enable": false,
+  "javascript.validate.enable": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed",
-    "editor.suggest.showKeywords": false
+    "editor.suggest.showKeywords": true
   },
 
   // Python
@@ -116,5 +116,7 @@
   "material-icon-theme.folders.color": "#6273a6",
 
   "symbols.hidesExplorerArrows": false,
-  "window.zoomLevel": 0
+
+  // Prettier
+  "prettier.singleQuote": true
 }
