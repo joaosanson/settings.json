@@ -1,92 +1,227 @@
 {
-  // Workbench
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.labelFormat": "short",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.editor.enablePreview": false,
-  "workbench.sideBar.location": "left",
-  "window.menuBarVisibility": "toggle",
-  "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-
-  // Explorer
-  "explorer.compactFolders": false,
-  "explorer.confirmDelete": true,
-
-  // Editor and breadcrumbs
-  "breadcrumbs.enabled": true,
-  "editor.renderControlCharacters": false,
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [79, 120],
-  "editor.minimap.enabled": false,
-  "editor.fontSize": 20,
-  "editor.detectIndentation": true,
-  "editor.snippetSuggestions": "top",
-  "editor.wordBasedSuggestions": false,
-  "editor.suggest.localityBonus": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.formatOnPaste": false,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.mouseWheelScrollSensitivity": 2,
-  "editor.smoothScrolling": true,
+  "editor.fontSize": 14,
   "editor.mouseWheelZoom": true,
-  "editor.linkedEditing": true,
-  "editor.fontFamily": " 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-  "editor.glyphMargin": false,
-  "editor.fontLigatures": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll": true
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [90],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
   },
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "cSpell.userWords": [
+    "bootcamp",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "commitlint",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dotenv",
+    "esbuild",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "Hono",
+    "IUGU",
+    "jamjuree",
+    "jupiter",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "omni",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "reactflow",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Sandpack",
+    "Sanson",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "editor.lineHeight": 26,
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "material-icon-theme.activeIconPack": "nest",
   "editor.suggestSelection": "first",
-
-  // Git
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "window.zoomLevel": 1,
+  "liveshare.featureSet": "insiders",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
-  "diffEditor.ignoreTrimWhitespace": true,
-
-  // Debug
-  "debug.console.fontSize": 18,
-
-  // Files and search
-  "files.defaultLanguage": "{activeEditorLanguage}",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "newWindow",
   "files.exclude": {
-    "USE_GITIGNORE": true
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true
+    // "node_modules": true
   },
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/coverage": true,
-    "**/dist": true,
-    "**/build": true,
-    "**/.build": true,
-    "**/.gh-pages": true
+  "tabnine.experimentalAutoImports": true,
+  "gitlens.codeLens.enabled": false,
+  "workbench.iconTheme": "symbols",
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  "editor.minimap.enabled": false,
+  "update.mode": "start",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.colorTheme": "Omni",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.commandCenter": true,
+  "git.openRepositoryInParentFolders": "always",
+  "symbols.hidesExplorerArrows": false,
   // Javascript & TypeScript
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "javascript.validate.enable": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
   "[javascript]": {
     "editor.suggestSelection": "recentlyUsed",
     "editor.suggest.showKeywords": true
   },
-
-  // Python
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true
-  },
-
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -96,27 +231,5 @@
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
-
-  // ##################### Extensions ##################### //
-
-  // Code runner
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.ignoreSelection": true,
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.runInTerminal": true,
-  "code-runner.preserveFocus": false,
-  "code-runner.executorMap": {
-    "python": "python3 -u",
-    "typescript": "npx ts-node --files --transpile-only"
-  },
-
-  // Material icon theme extension
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.folders.theme": "classic",
-  "material-icon-theme.folders.color": "#6273a6",
-
-  "symbols.hidesExplorerArrows": false,
-
-  // Prettier
-  "prettier.singleQuote": true
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
 }
