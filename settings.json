@@ -3,11 +3,13 @@
     "javascript": "jsx"
   },
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.mouseWheelZoom": true,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [90],
+  "editor.rulers": [
+    80
+  ],
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
   "files.associations": {
@@ -27,6 +29,7 @@
     "Codegen",
     "commitlint",
     "datadog",
+    "Dataframe",
     "Datetime",
     "dayjs",
     "Dotenv",
@@ -36,9 +39,14 @@
     "feedbackwidget",
     "ffprobe",
     "Hono",
+    "hookform",
+    "Icone",
+    "ILIKE",
     "IUGU",
     "jamjuree",
     "jupiter",
+    "knexfile",
+    "Linkedin",
     "liveblocks",
     "LIVEBLOCKS",
     "middlewares",
@@ -53,6 +61,7 @@
     "postgresql",
     "prefetch",
     "reactflow",
+    "reduxjs",
     "roboto",
     "rocketseat",
     "rotion",
@@ -70,14 +79,18 @@
     "trpc",
     "TRPC",
     "tsup",
+    "Uhuul",
     "unfollow",
     "Unfollow",
     "unform",
     "Unform",
+    "Univariada",
     "unmark",
     "upsert",
     "Usuario",
-    "WEBPUSH"
+    "uuidv",
+    "WEBPUSH",
+    "zustand"
   ],
   "editor.parameterHints.enabled": false,
   "editor.renderLineHighlight": "gutter",
@@ -87,7 +100,6 @@
     "dotenv": "tune"
   },
   "typescript.updateImportsOnFileMove.enabled": "never",
-
   "material-icon-theme.files.associations": {
     "tsconfig.json": "tune",
     "*.webpack.js": "webpack",
@@ -106,16 +118,15 @@
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
   },
   "workbench.editor.labelFormat": "short",
   "editor.fontLigatures": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "window.zoomLevel": 1,
   "liveshare.featureSet": "insiders",
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -173,9 +184,13 @@
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "eslint.validate": ["javascript", "javascriptreact", "graphql"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
@@ -184,12 +199,13 @@
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "files.exclude": {
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/.git": true
-    // "node_modules": true
+    "**/.apivcs": true,
+    "**/.git": true,
+    "**/.designer.json": true,
+    "**/.exchange.xml": true,
+    "**/.vscode": true,
+    "**/.mvn": true,
+    "**/.exchange_modules_tmp": true
   },
   "tabnine.experimentalAutoImports": true,
   "gitlens.codeLens.enabled": false,
@@ -203,7 +219,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.colorTheme": "Omni",
   "liveServer.settings.donotShowInfoMsg": true,
   "[json]": {
@@ -220,8 +235,8 @@
     "editor.suggestSelection": "recentlyUsed",
     "editor.suggest.showKeywords": true
   },
-  "prettier.singleQuote": false,
-  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -232,4 +247,28 @@
     "typescript": "typescriptreact"
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[typescriptreact]": {},
+  "cSpell.ignoreWords": [
+    "Malwee"
+  ],
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "git.autofetch": true,
+  "workbench.editor.empty.hint": "hidden",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "notebook.output.wordWrap": true,
+  "liveshare.notebooks.allowGuestExecuteCells": true,
+  "workbench.editorAssociations": {
+    "*.XLSX": "default"
+  },
+  "mule.controlPlane": "US Cloud",
+  "mule.runtime.muleRuntimesDirectory": "C:\\Users\\ja35870\\muleRuntimes",
+  "mule.runtime.muleHome": "C:\\Users\\ja35870\\muleRuntimes\\mule-enterprise-standalone-4.4.0-20230822\\",
+  "workbench.editor.enablePreview": false,
+  "files.eol": "\n",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "autoDocstring.quoteStyle": "'''",
 }
